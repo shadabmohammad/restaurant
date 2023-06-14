@@ -1,214 +1,136 @@
 <!DOCTYPE HTML>
 <html>
-<b><Head><h1 style="color:Green;background-color:#701652;"><center>Welcome To Hotel TulipsInn</center></h1>
+<b><Head><h1 style="color:Green;background-color:DodgerBlue;"><center>Welcome To Hotel TulipsInn</center></h1>
 <center>**************************************************************************************************************</center><br>
-<center><h3>Customer Details:</h3></center>
+<center><h2><u><i>Customer Details</i></h2></u></center>
 <center>--------------------------------------------------------------------------------------------------------------</center><br>
 </Head>
 <body>
-<form name = "myform">
+
 
 <center>
-<label for="cname">CustomerName:</label>
-<input type = "text" id = "customerName" pattern="[a-z][A-Z]{32}"  required>  <br>
-<br> 
-<label for="phno">PhoneNumber:</label>                                             
-<input type = "text" id = "phoneNumber" placeholder="6326-9574-12" pattern="[0-9]{4}-[0-9]{4}-[0-9]{2}" required><br>
+Customer Name: <input type = "text" id = "customerName" pattern="[a-z][A-Z]{32}"  required>  &nbsp;                                              
+Phone Number: <input type = "text" id = "phoneNumber" placeholder="Ex:6326-9574-12" pattern="[0-9]{4}-[0-9]{4}-[0-9]{2}" required><br><br><br>
+
+<center><h2><u><i>Order Summary</i></h2></u></center>
+
+
+<h3><u>Juices</u></h3>   
+Mango: <br>
+Quantity: <input type = "number" id = "quantity01"/>
+Cost: <input type = "number" id = "costOfJuices01"/>
 <br>
 <br>
-<h3><b>Juices </b></h3> <br>
-<br>    
- Mango Juice  <br>
- <br>
- <label for="quantitymango">Quantity:</label>   
-<input min="0" type="number" id="quantity01" name="quantity" max="50" value="0" /> &nbsp;
-<label for="costmango">Cost:</label>
-<input type = "text" id = "costOfJuices01"/>
+Orange:&nbsp;<br>
+Quantity: <input type = "number" id = "quantity02"/>
+Cost: <input type = "number" id = "costOfJuices02"/>
 <br>
 <br>
-Orange Juice <br>
-<br>
-<label for="quantitymango">Quantity:</label>   
-<input min="0" type="number" id="quantity02" name="quantity" max="50" value="0" /> &nbsp;
-<label for="costorange">Cost:</label>
-<input type = "text" id = "costOfJuices02"/>
+WaterMelon:&nbsp;<br>
+Quantity: <input type = "number" id = "quantity03"/>
+Cost: <input type = "number" id = "costOfJuices03"/>
 <br>
 <br>
-WaterMelon Juice <br>
-<br>
-<label for="quantitywatermelon">Quantity:</label>  
-<input min="0" type="number" id="quantity03" name="quantity" max="50" value="0" /> &nbsp;
-<label for="costofwatermelon">Cost:</label>
-<input type = "text" id = "costOfJuices03"/>
+PineApple:&nbsp;<br>
+Quantity: <input type = "number" id = "quantity04"/>
+Cost: <input type = "number" id = "costOfJuices04"/>
 <br>
 <br>
-PineApple Juice <br>
-<br>
-<label for="quantitypineapple">Quantity:</label>
-<input min="0" type="number" id="quantity04" name="quantity" max="50" value="0" /> &nbsp;
-<label for="costofpineapple">Cost:</label>
-<input type = "text" id = "costOfJuices04"/>
+Carrot:&nbsp;<br>
+Quantity: <input type = "number" id = "quantity05"/>
+Cost: <input type = "number" id = "costOfJuices05"/>
 <br>
 <br>
-Carrot Juice <br>
-<br>
-<label for="quantitycarrotjuice">Quantity:</label>
-<input min="0" type="number" id="quantity05" name="quantity" max="50" value="0" /> &nbsp;
-<label for="costofcarrot">Cost:</label>
-<input type = "text" id = "costOfJuices05"/>
-<br>
-<br>
-PomeGranite Juice <br>
-<br>
-<label for="quantitypomegranite">Quantity:</label>
-<input min="0" type="number" id="quantity06" name="quantity" max="50" value="0" /> &nbsp;
-<label for="costofpomegranite">Cost:</label>
-<input type = "text" id = "costOfJuices06"/>
+PomeGranite:&nbsp;<br>
+Quantity: <input type = "number" id = "quantity06"/>
+Cost: <input type = "number" id = "costOfJuices06"/>
 <br>
 <br>
 
 
 
-<h3><b>Meals </b></h3><br>
-<br>
-Fries <br>
-<br>
-<label for="quantitypineapple">Quantity:</label>
-<input min="0" type="number" id="quantityMeals01" name="quantity" max="50" value="0" /> &nbsp;
-<label for="costofcarrot">Cost:</label>
-<input type = "text" id = "costOfMeals01"/>
-<br>
-<br>
-Lunch  <br>
-<br>
-<label for="quantitypineapple">Quantity:</label>
-<input min="0" type="number" id="quantityMeals02" name="quantity"  max="50" value="0" /> &nbsp;
-<label for="costofcarrot">Cost:</label>
-<input type = "text" id = "costOfMeals02"/>
-<br>
-<br>
-Burger  <br>
-<br>
+<h3><u>Meals</u></h3> <br>    
 
-<label for="quantitypineapple">Quantity:</label>
-<input min="0" type="number" id="quantityMeals03" name="quantity" max="50" value="0" /> &nbsp;
-<label for="costofcarrot">Cost:</label>
-<input type = "text" id = "costOfMeals03"/>
+Fries: &nbsp;<br>
+Quantity: <input type = "number" id = "quantityMeals01"/>
+Cost: <input type = "number" id = "costOfMeals01"/>
 <br>
 <br>
-Pizza  <br>
-<br>
-<label for="quantitypineapple">Quantity:</label>
-<input min="0" type="number" id="quantityMeals04" name="quantity" max="50" value="0" /> &nbsp;
-<label for="costofcarrot">Cost:</label>
-<input type = "text" id = "costOfMeals04"/>
+Lunch: &nbsp;<br>
+Quantity: <input type = "number" id = "quantityMeals02"/>
+Cost: <input type = "number" id = "costOfMeals02"/>
 <br>
 <br>
-Cheese Burger  <br>
-<br>
-<label for="quantitypineapple">Quantity:</label>
-<input min="0" type="number" id="quantityMeals05" name="quantity" max="50" value="0" /> &nbsp;
-<label for="costofcarrot">Cost:</label>
-<input type = "text" id = "costOfMeals05"/>
+Burger: &nbsp;<br>
+Quantity: <input type = "number" id = "quantityMeals03"/>
+Cost: <input type = "number" id = "costOfMeals03"/>
 <br>
 <br>
-HotDog  <br>
+Pizza : &nbsp;<br>
+Quantity: <input type = "number" id = "quantityMeals04"/>
+Cost: <input type = "number" id = "costOfMeals04"/>
 <br>
-<label for="quantitypineapple">Quantity:</label>
-<input min="0" type="number" id="quantityMeals06" name="quantity" max="50" value="0" /> &nbsp;
-<label for="costofcarrot">Cost:</label>
-<input type = "text" id = "costOfMeals06"/>
+<br>
+Cheese Burger : &nbsp;<br>
+Quantity: <input type = "number" id = "quantityMeals05"/>
+Cost: <input type = "number" id = "costOfMeals05"/>
+<br>
+<br>
+HotDog : &nbsp;<br>
+Quantity: <input type = "number" id = "quantityMeals06"/>
+Cost: <input type = "number" id = "costOfMeals06"/>
 <br>
 <br>
 
 
 
-<h3><b>Desserts </b></h3> <br>
-<br>
-IceCream <br>
-<br>
-<label for="quantitypineapple">Quantity:</label>
-<input  min="0" type="number" id="quantityDessert01" name="quantity" max="50" value="0" /> &nbsp;
-<label for="costofcarrot">Cost:</label>
-<input type = "text" id = "costOfDesserts01"/>
+<h3><u>Desserts</u></h3> <br> 
+
+ IceCream :&nbsp;<br>
+Quantity: <input type = "number" id = "quantityDessert01"/>
+Cost: <input type = "number" id = "costOfDesserts01"/>
 <br>
 <br>
-GulabJamun  <br>
-<br>
-<label for="quantitypineapple">Quantity:</label>
-<input  min="0" type="number" id="quantityDessert02" name="quantity" max="50" value="0" /> &nbsp;
-<label for="costofcarrot">Cost:</label>
-<input type = "text" id = "costOfDesserts02"/>
+GulabJamun : &nbsp;<br>
+Quantity: <input type = "number" id = "quantityDessert02" min="0" max="100"/>
+Cost: <input type = "number" id = "costOfDesserts02"/>
 <br>
 <br>
-Halwa <br>
-<br>
-<label for="quantitypineapple">Quantity:</label>
-<input  min="0" type="number" id="quantityDessert03" name="quantity" max="50" value="0" /> &nbsp;
-<label for="costofcarrot">Cost:</label>
-<input type = "text" id = "costOfDesserts03"/>
+Halwa :&nbsp;<br>
+Quantity: <input type = "number" id = "quantityDessert03"/>
+Cost: <input type = "number" id = "costOfDesserts03"/>
 <br>
 <br>
-ChocoLava <br>
-<br>
-<label for="quantitypineapple">Quantity:</label>
-<input min="0" type="number" id="quantityDessert04" name="quantity" max="50" value="0" /> &nbsp;
-<label for="costofcarrot">Cost:</label>
-<input type = "text" id = "costOfDesserts04"/>
+ChocoLava :&nbsp;<br>
+Quantity: <input type = "number" id = "quantityDessert04"/>
+Cost: <input type = "number" id = "costOfDesserts04"/>
 <br>
 <br>
-CoolCake <br>
-<br>
-<label for="quantitypineapple">Quantity:</label>
-<input min="0" type="number" id="quantityDessert05" name="quantity" value="0" max="50" /> &nbsp;
-<label for="costofcarrot">Cost:</label>
-<input type = "text" id = "costOfDesserts05"/>
+CoolCake :&nbsp;<br>
+Quantity: <input type = "number" id = "quantityDessert05"/>
+Cost: <input type = "number" id = "costOfDesserts05"/>
 <br>
 <br>
-Muffins  <br>
-<br>
-<label for="quantitypineapple">Quantity:</label>
-<input  min="0" type="number" id="quantityDessert06" name="quantity" max="50" value="0" /> &nbsp;
-<label for="costofcarrot">Cost:</label>
-<input type = "text" id = "costOfDesserts06"/>
+Muffins : &nbsp;<br>
+Quantity: <input type = "number" id = "quantityDessert06"/>
+Cost: <input type = "number" id = "costOfDesserts06"/>
 <br>
 <br>
 
 
 
-Total Cost of Juices:<br>
-<br> 
-
-<input type = "text" id = "totalJuices"/><br>
+Total Cost of Juices:&nbsp;&nbsp; <input type = "number" id = "totalJuices"/><br><br>
+Total Cost of Meals: &nbsp;&nbsp;<input type = "number" id = "totalMeals"/><br><br>
+Total Cost of Desserts:&nbsp;&nbsp; <input type = "number" id = "totalDesserts"/><br><br>
+Total(Excluding GST)(Juices+Meals+Desserts):&nbsp;&nbsp; <input type = "number" id = "total"/><br><br>
+Grand Total(CGST @ 7.5% + SGST @ 7.5%):&nbsp;&nbsp;<input type = "number" id = "grandTotal"/><br><br>
 <br>
-Total Cost of Meals: <br>
-<br>
-
-<input type = "text" id = "totalMeals"/><br>
-<br>
-Total Cost of Desserts:<br>
-<br> 
-
-<input type = "text" id = "totalDesserts"/><br>
-<br>
-Total(Excluding GST)(Juices+Meals+Desserts):<br>
-<br> 
-
-<input type = "text" id = "total"/><br>
-<br>
-Grand Total(CGST @ 7.5% + SGST @ 7.5%):<br>
-<br>
-
-<input type = "text" id = "grandTotal"/><br>
-<br>
-<br>
-<label for="quantitypineapple">Quantity:</label>
 <input type = "button"  value="Generate Bill" onClick="myFunction()" />
 </center>
 <p id="demo"></p>
 
 
-</form>
+
 <script>
 
 		
@@ -236,22 +158,27 @@ function myFunction() {
 	
 	while(i<quantityJuices.length)
 	{
-	var quantityOfJuicesEntered =	document.getElementById(quantityJuices[i]).value;
-	var quantityOfMealsEntered = document.getElementById(quantityMeals[i]).value;
-	var quantityOfDessertsEntered = document.getElementById(quantityDessert[i]).value;
+	var y =	document.getElementById(quantityJuices[i]).value;
+	var k = document.getElementById(quantityMeals[i]).value;
+	var l = document.getElementById(quantityDessert[i]).value;
 	
+	console.log(y);
 	
-	if(quantityOfJuicesEntered == 0 ||  quantityOfJuicesEntered == NaN  ||quantityOfMealsEntered == 0 ||  quantityOfMealsEntered == NaN ||quantityOfDessertsEntered == 0 ||  quantityOfDessertsEntered ==NaN)
+
+	if(y == 0 || k == 0|| l == 0)
 	{
 		 document.getElementById(costOfJuices[i]).value = 0;
 		 document.getElementById(costOfMeals[i]).value = 0;
 		 document.getElementById(costOfDesserts[i]).value = 0;
 
 	}
-	if(quantityOfDessertsEntered>50 || quantityOfJuicesEntered>50 || quantityOfMealsEntered>50){
-		alert("Enter Value less than 50");
+	if(y>50 || k>50 || l>50)
+	{
+		window.alert("Please Enter Values Below 50");
 		break;
 	}
+	 if(y>=1|| k>=1 || l>=1)
+		{
 		let totalCostJuicesIndividual = 0; 
 		let totalCostMealsIndividual = 0
 		let totalCostDessertsIndividual = 0;
@@ -259,12 +186,12 @@ function myFunction() {
 		
 
 
-		totalCostJuicesIndividual = totalCostJuicesIndividual + ( quantityOfJuicesEntered * costOfEachFruitJuice[i]);
-		// console.log(totalCostJuicesIndividual);
-		totalCostMealsIndividual = totalCostMealsIndividual + ( quantityOfMealsEntered * costOfEachMeal[i]);
-		// console.log(totalCostMealsIndividual);
-		totalCostDessertsIndividual = totalCostDessertsIndividual + ( quantityOfDessertsEntered * costOfEachDessert[i]);
-		// console.log(totalCostDessertsIndividual);
+		totalCostJuicesIndividual = totalCostJuicesIndividual + ( y * costOfEachFruitJuice[i]);
+		console.log(totalCostJuicesIndividual);
+		totalCostMealsIndividual = totalCostMealsIndividual + ( k * costOfEachMeal[i]);
+		console.log(totalCostMealsIndividual);
+		totalCostDessertsIndividual = totalCostDessertsIndividual + ( l * costOfEachDessert[i]);
+		console.log(totalCostDessertsIndividual);
 		
 		totalCostForWholeJuicesCategory += totalCostJuicesIndividual;
 
@@ -277,7 +204,7 @@ function myFunction() {
 		document.getElementById(costOfDesserts[i]).value = totalCostDessertsIndividual;
 
 		
-		
+		}
 	 	i++
 	}
 
